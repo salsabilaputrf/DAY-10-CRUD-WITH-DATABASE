@@ -296,7 +296,7 @@ func editProjectInput(w http.ResponseWriter, r *http.Request){
         return
     }
 
+
 	http.Redirect(w, r, "/", http.StatusMovedPermanently)
-	
 }
 
